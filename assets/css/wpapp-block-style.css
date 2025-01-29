@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.pricing-item-light, .pricing-item-dark{
+    border-radius: 15px;  
+    box-shadow: 0px 4px 14px 0px rgb(28 66 161 / 18%);
+    padding: 42px 30px;
+    font-family: "Archivo", sans-serif;
+     color: #162B60;
+    font-family: Archivo;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pricing-item-light{
+      background: #FFF;
+       color: #162B60;
+}
+.pricing-item-light h2,.pricing-item-light .price-wrp h3, .pricing-item-light .price-wrp  span{
+    color: #162B60;
+}
+.pricing-item-light .pricing-tag{
+    color: #8690AB;
+}
+.pricing-item-light .pricing-tag{
+    color: #8690AB;
+}
+.pricing-item-dark{
+      background:#162B60;
+       color: #fff;
+}
+.pricing-item-light h2,.pricing-item-light .price-wrp h3, .pricing-item-light .price-wrp  span{
+    color: #162B60;
+}
+.pricing-item-dark h2,.pricing-item-dark .price-wrp h3, .pricing-item-dark .price-wrp  span{
+    color: #FFF;
+}
+.pricing-tag, .srv-title-sec p{
+    color: #8690AB;
+}
+.pricing-item-light .pricing-tag{
+    color: #8690AB;
+}
+.pricing-item-light h2, .pricing-item-dark h2{    
+    font-family: Archivo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+.pricing-tag, .srv-title-sec p{    
+    font-family: Archivo;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price-wrp h3, .srv-title-sec h2 {
+    font-family: Archivo;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    margin: 50px 0 15px;
+}
+.price-wrp  span{
+    color: #162B60;
+    font-family: Archivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price-wrp {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+a.price_btn {
+    color: #fff;
+    font-family: Archivo;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 245px;
+    text-decoration: none;
+    border-radius: 15px;   
+    text-align: center;
+    padding: 20px;
+}
+.pricing-item-light a.price_btn{
+    background: #162B60; 
+}
+.pricing-item-dark a.price_btn{
+    background:#3ED37A; 
+}
+.pricing-item ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 23px;
+}
+.pricing-item ul li{
+    display: flex;
+    gap:8px;
+    align-items: start;
+    line-height: 1.3em;
+}
+.pricing-item {
+    flex: 0 0 24%;
+    margin-bottom: 30px;
+}
+.pricing-plan-wrwpper {
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+.srv-title-sec{ text-align: center; padding-left: 15px; padding-right: 15px; margin-bottom: 60px}
+.anber-pricingplan-block{padding-top: 100px; padding-bottom: 100px}
+.pricing-item-light a.price_btn:hover {
+    background: #3ed37a;
+    color: #fff;
+}
+.pricing-item-dark a.price_btn:hover {
+    background: #fff;
+    color: #162b60;
+}
